@@ -24,13 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"New Branch",Toast.LENGTH_LONG).show();
-            }
-        });
-        //comments in master
+
 
     }
 }
