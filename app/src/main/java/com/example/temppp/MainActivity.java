@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btn=findViewById(R.id.btn);
         btn2=findViewById(R.id.btn2);
+        //merging branch
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
