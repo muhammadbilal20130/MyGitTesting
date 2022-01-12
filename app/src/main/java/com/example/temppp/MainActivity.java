@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"New Branch",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Git master Branch",Toast.LENGTH_LONG).show();
             }
         });
-
+        Toast.makeText(getApplicationContext(),"Main Branch",Toast.LENGTH_LONG).show();
     }
 }
