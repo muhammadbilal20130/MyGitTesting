@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Git master Branch",Toast.LENGTH_LONG).show();
             }
         });
-        Toast.makeText(getApplicationContext(),"Main Branch",Toast.LENGTH_LONG).show();
+
     }
 }
