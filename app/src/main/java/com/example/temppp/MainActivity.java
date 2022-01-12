@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Git master Branch",Toast.LENGTH_LONG).show();
             }
         });
-
+        //This is my new branch code
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"New Branch",Toast.LENGTH_LONG).show();
             }
         });
-
+        //This is my new branch code
     }
 }
